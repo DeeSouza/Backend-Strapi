@@ -28,11 +28,9 @@
       "required": true
     },
     "benefits": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.concepts",
-      "required": true,
-      "min": 2
+      "type": "richtext",
+      "default": "Create items as bullet list",
+      "required": true
     }
   }
 }
