@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_page_section_concepts",
+  "collectionName": "components_page_section_modules",
   "info": {
-    "name": "sectionConcepts",
-    "icon": "list",
+    "name": "sectionModules",
+    "icon": "atlas",
     "description": ""
   },
   "options": {},
@@ -11,10 +11,11 @@
       "type": "string",
       "required": true
     },
-    "concepts": {
+    "modules": {
       "type": "component",
       "repeatable": true,
-      "component": "page.concepts",
+      "component": "page.modules",
+      "min": 2,
       "required": true
     }
   }
