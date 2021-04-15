@@ -32,11 +32,11 @@
       "type": "component",
       "repeatable": true,
       "component": "page.social-links",
-      "required": true
+      "required": false
     },
     "bio": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
