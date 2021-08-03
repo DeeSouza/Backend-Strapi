@@ -8,6 +8,11 @@ A quick description of your strapi application
 docker run --name backend_strapi -e POSTGRES_PASSWORD=strapi -p 5432:5432 -d postgres
 ```
 
+### Start a Image Docker Container
+```sh
+docker start <container_name>
+```
+
 ### Create a Strapi Project
 
 ```sh
